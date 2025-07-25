@@ -38,15 +38,16 @@ jobs:
             while read -r url file; do
               [ -z "$url" ] && continue
               echo "Attempt $i: Downloading $file"
-              if ! wget -vO "deps/$file" "$url"; then
+              if ! wget --progress=dot:mega -vO "deps/$file" "$url"; then
                 echo "Failed: $file"
                 failed=1
               fi
             done < deps.txt
-            [ "$failed" -eq 0 ] && exit 1
+            [ "$failed" -eq 0 ] && break
             echo "Waiting before retry $((i+1))..."
             sleep 300
           done
+          exit 1
 
       - name: Generate dir listing
         run: | 
