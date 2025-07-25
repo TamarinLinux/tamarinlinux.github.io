@@ -46,7 +46,7 @@ jobs:
           mkdir -p deps
           while read -r url file; do
             [ -z "$url" ] && continue
-            wget -qO "deps/$file" "$url"
+            wget -O "deps/$file" "$url"
           done < deps.txt
 
       - name: Generate dir listing
