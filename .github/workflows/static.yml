@@ -51,7 +51,7 @@ jobs:
 
       - name: Generate dir listing
         run: | 
-          ls deps | awk '{ print "<a href=\"" $0 "\">" $0 "</a>" } > deps/index.html'
+          ls deps | awk '{ print "<a href=\"" $0 "\">" $0 "</a>" }' > deps/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
