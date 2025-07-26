@@ -22,3 +22,4 @@ https://notabug.org/guile-zlib/guile-zlib/archive/v0.2.2.tar.gz guile-zlib-0.2.2
 https://notabug.org/guile-lzlib/guile-lzlib/archive/0.3.0.tar.gz guile-lzlib-0.3.0.tar.gz
 https://ftpmirror.gnu.org/gnu/guix/guix-1.4.0.tar.gz guix-1.4.0.tar.gz
 https://ftp.gnu.org/gnu/make/make-4.4.1.tar.gz make-4.4.1.tar.gz
+https://busybox.net/downloads/binaries/1.35.0-x86_64-linux-musl/busybox busybox-1.35.0-x86_64-linux-musl
