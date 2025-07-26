@@ -8,7 +8,7 @@ https://ftpmirror.gnu.org/gnu/nettle/nettle-3.9.1.tar.gz nettle-3.9.1.tar.gz
 https://github.com/TaylanUB/scheme-bytestructures/releases/download/v2.0.2/bytestructures-2.0.2.tar.gz bytestructures-2.0.2.tar.gz
 https://www.openssl.org/source/openssl-3.3.0.tar.gz openssl-3.3.0.tar.gz
 https://github.com/libgit2/libgit2/archive/refs/tags/v1.9.1.tar.gz libgit2-1.9.1.tar.gz
-https://gitlab.com/guile-git/guile-git/-/archive/v0.10.0/guile-git-v0.10.0.tar.gz guile-git-v0.10.0.tar.gz
+https://gitlab.com/guile-git/guile-git/-/archive/v0.10.0/guile-git-v0.10.0.tar.gz guile-git-0.10.0.tar.gz
 https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.9.tar.xz gnutls-3.8.9.tar.xz
 https://ftpmirror.gnu.org/gnu/gnutls/guile-gnutls-4.0.1.tar.gz guile-gnutls-4.0.1.tar.gz
 https://download.savannah.gnu.org/releases/guile-json/guile-json-4.7.2.tar.gz guile-json-4.7.2.tar.gz
